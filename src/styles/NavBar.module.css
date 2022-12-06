@@ -1,0 +1,37 @@
+.NavBar {
+    position: realtive;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 2vw;
+}
+
+
+.NavBarLogo {
+    position: relative;
+    width: auto;
+    height: auto;
+    max-width: none;
+    object-fit: contain;
+}
+
+.NavBarLinks {
+    position: relative;
+    margin: 0 2vw;
+    font-size: 1.5rem;
+}
+
+.NavBarElements {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 3vw;
+    list-style: none;
+    color: #06114F;
+    font-family: Merriweather;
+    font-style: Light;
+}
