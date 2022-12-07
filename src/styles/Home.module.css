@@ -1,0 +1,105 @@
+.box {
+    position: relative;
+    width: 100%;
+    height: auto;
+
+    flex-direction: row;
+    align-items: left;
+    justify-content: space-evenly;
+    margin: 0;
+    display: flex;
+   
+    text-align: left;
+    
+}
+
+/* textul de sub partajare meme-uri */
+.box_upload {
+    /* position: relative; */
+    font-size: Merriweather;
+    width: auto;
+    height: auto;
+    display: flex;
+ 
+    justify-content: center;
+    align-items: center;
+    margin: 0 5vw;   
+    text-align: left;
+
+}
+
+/* textul partajare meme-uri */
+.box_title  {
+    font-family: Merriweather;
+    font-style: black;
+    font-size: 43px;
+   
+    align: Center;
+    vertical-align: Top;
+    color: #252F65;
+    font-weight: bolder;
+
+    display: flex;
+
+    vertical-align: center;
+    
+
+
+}
+
+.box_upload > p {
+    font-size: 1rem;
+    margin-bottom: 3vw;
+    text-align: center;
+}
+
+/* butonul de upload */
+.upload {
+
+    font-size: Merriweather;
+    font-style: bold;
+    font-size: 20px;
+    line-height: 25px;
+    line-height: 100%;
+    align: center;
+    vertical-align: top;
+    /* color: #6F3096; */
+    background: #6F3096;
+    color: #ffffff;
+
+    border:none;
+    cursor: pointer;
+    padding: 20px 50px;
+    border-radius: 5px;
+
+} 
+
+
+.box_tipul {
+    position: relative;
+    width: 50%;
+    height: auto;
+    display: flex;
+    
+    align-items: right;
+}
+
+
+
+.tipul {
+    position: relative;
+    height: auto;
+    max-width: 30vw;
+    object-fit: contain;
+
+
+}
+
+.box_johnny {
+    font-size: Merriweather;
+    text-align: center;
+    width: 100%;
+
+}
+
+

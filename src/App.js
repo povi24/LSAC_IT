@@ -12,6 +12,7 @@ function App() {
   return (
     <Fragment>
         <NavBar/>
+        <Home />
     </Fragment>
   );
 }
