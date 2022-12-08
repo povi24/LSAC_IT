@@ -33,18 +33,15 @@
     font-family: Merriweather;
     font-style: black;
     font-size: 43px;
-   
+
     align: Center;
     vertical-align: Top;
     color: #252F65;
     font-weight: bolder;
-
     display: flex;
 
     vertical-align: center;
     
-
-
 }
 
 .box_upload > p {
@@ -101,5 +98,7 @@
     width: 100%;
 
 }
+
+
 
 
