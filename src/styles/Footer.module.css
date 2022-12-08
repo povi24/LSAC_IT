@@ -1,0 +1,31 @@
+.footer {
+
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 3.5vh 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #06114F;
+    font-size: 3vw;
+}
+
+.icons {
+   
+    width: 100%;
+    display: flex;
+    color:#ffffff;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0vh 1vw;
+    gap: 12px;
+}
+
+.text {
+    display: flex;
+    font-family: Merriweather;
+    font-size: 20px;
+    color: #ffffff;
+}
