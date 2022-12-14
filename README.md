@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+For testing, you first have to clone the repo and then install the npm dependencies "$ npm install"
+Now, in the project directory, you can run "$ npm start".
+Some links that i found useful for this part were - https://medium.com/geekculture/how-to-test-a-local-react-npm-package-still-on-development-9bed7f199164
+                                                  - https://create-react-app.dev/docs/getting-started/
+                                                  - https://www.digitalocean.com/community/tutorials/how-to-set-up-a-react-project-with-create-react-app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+The hierarchy will look something like this:
 
-In the project directory, you can run:
+.src
+  |___assets(here are all the pictures that are used)
+  |
+  |___components(here i implemented the NavBar)
+  |
+  |___parts(here are other parts of the page such as the Footer, the MostViewed section etc)
+  |
+  |___styles(here are the css files)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+In App.js are all the components and parts of the page ordered as they appear on the page.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+--------------------------------------------------------------------------------------------------------
 
-### `npm test`
+    It was the first time I created an application using React and CSS (these being used on the advice 
+of my mentor). Until now I have not had any contact with web technologies and that is why I really 
+tried to do as much as possible of the tasks (I can't say that it is a great success, but at least
+I tried :) )
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    I can say that I understood quite quickly (a few days of research) how things work, how to use CSS,
+what it means and how to make a page responsive, and I really liked working on the frontend.
 
-### `npm run build`
+    Google, Youtube and Johnny were my best friends during the days when I was learning and coding and
+for sure (although the deadline has already passed) I will continue to work and I would really like to 
+finish the frontend part on winter break .
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    Since I started with 0 knowledge, I can't say that I learned very well all the concepts that I used,
+but I left below a list of links that helped me a lot and from where I best understood the explanations
+( maybe they'll be on the list of resources next year and help other newbies like me :) )
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+https://www.youtube.com/watch?v=mU6anWqZJcc&t=4258s&ab_channel=freeCodeCamp.org !!!
+https://www.youtube.com/watch?v=pKMWU9OrA2s&ab_channel=HarryWolff !!!!
+https://reactjs.org/community/examples.html
+https://blog.openreplay.com/using-css-modules-in-react/
+https://www.makeuseof.com/react-components-css-modules-style/
+https://www.youtube.com/watch?v=ZawAwPYrxGA&ab_channel=TelmoSampaio
+https://www.w3schools.com/react/react_css_styling.asp
+https://reactjs.org/docs/fragments.html
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

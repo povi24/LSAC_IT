@@ -2,20 +2,16 @@
     position: relative;
     width: 100%;
     height: auto;
-
     flex-direction: row;
     align-items: left;
     justify-content: space-evenly;
     margin: 0;
     display: flex;
-   
     text-align: left;
     
 }
 
-/* textul de sub partajare meme-uri */
 .box_upload {
-    /* position: relative; */
     font-size: Merriweather;
     width: auto;
     height: auto;
@@ -28,7 +24,6 @@
 
 }
 
-/* textul partajare meme-uri */
 .box_title  {
     font-family: Merriweather;
     font-style: black;
@@ -50,7 +45,6 @@
     text-align: center;
 }
 
-/* butonul de upload */
 .upload {
 
     font-size: Merriweather;
@@ -60,10 +54,8 @@
     line-height: 100%;
     align: center;
     vertical-align: top;
-    /* color: #6F3096; */
     background: #6F3096;
     color: #ffffff;
-
     border:none;
     cursor: pointer;
     padding: 20px 50px;
@@ -77,7 +69,6 @@
     width: 50%;
     height: auto;
     display: flex;
-    
     align-items: right;
 }
 
@@ -88,15 +79,12 @@
     height: auto;
     max-width: 30vw;
     object-fit: contain;
-
-
 }
 
 .box_johnny {
     font-size: Merriweather;
     text-align: center;
     width: 100%;
-
 }
 
 

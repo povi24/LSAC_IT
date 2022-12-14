@@ -3,20 +3,18 @@ import './App.css';
 import { Fragment } from 'react';
 import React from 'react';
 import NavBar from './components/NavBar';
-import Home from './pages/Home';
-import MostViewed from './pages/MostViewed';
-import Footer from './pages/Footer';
+import Home from './parts/Home';
+import MostViewed from './parts/MostViewed';
+import Footer from './parts/Footer';
+import Middle from "./parts/Middle";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
-//import { Fragment } from 'react';
-//import Home from './pages/Home';
-
 
 function App() {
   return (
     <Fragment>
         <NavBar/>
         <Home />
+        <Middle />
         <MostViewed />
         <Footer />
     </Fragment>
