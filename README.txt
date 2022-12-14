@@ -1,6 +1,6 @@
 For testing, you first have to clone the repo and then install the npm dependencies "$ npm install"
 Now, in the project directory, you can run "$ npm start".
-Some links that i found useful for this part were - https://medium.com/geekculture/how-to-test-a-local-react-npm-package-still-on-development-9bed7f199164
+Some links that i found useful for this part were - https://medium.com/geekculture/how-to-test-a-local-react-npm-package-still-on-development9bed7f199164
                                                   - https://create-react-app.dev/docs/getting-started/
                                                   - https://www.digitalocean.com/community/tutorials/how-to-set-up-a-react-project-with-create-react-app
 
